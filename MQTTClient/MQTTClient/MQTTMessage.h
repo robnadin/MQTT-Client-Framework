@@ -23,7 +23,7 @@
 /**
  Enumeration of MQTT Quality of Service levels
  */
-typedef NS_ENUM(UInt8, MQTTQosLevel) {
+typedef NS_CLOSED_ENUM(UInt8, MQTTQosLevel) {
     MQTTQosLevelAtMostOnce = 0,
     MQTTQosLevelAtLeastOnce = 1,
     MQTTQosLevelExactlyOnce = 2
